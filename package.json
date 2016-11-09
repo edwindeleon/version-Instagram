@@ -1,0 +1,22 @@
+{
+  "name": "mardwingram",
+  "version": "0.1.0",
+  "description": "Comparte fotos con tus amigos en MardwinGram",
+  "main": "server.js",
+  "keywords": [
+    "javascript",
+    "nodejs"
+  ],
+  "author": "Edwin De Leon",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "materialize-css": "^0.97.8",
+    "pug": "^2.0.0-beta6"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2"
+  }
+}
