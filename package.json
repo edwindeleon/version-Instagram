@@ -10,6 +10,7 @@
   "author": "Edwin De Leon",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.15.2",
     "empty-element": "^1.0.0",
     "express": "^4.14.0",
     "intl": "^1.2.5",
