@@ -105,16 +105,48 @@ $avatar-size: 48px;
   color: $secondary-color;
 }
 
-.card .fa-heart{
+.card .fa-heart {
   color: #f44336;
   display: none;
 }
 
-.card.liked{
-  .fa-heart{
+.card.liked {
+  .fa-heart {
     display: block;
   }
+
   .fa-heart-o {
     display: none;
   }
+}
+
+.form-upload {
+
+  span, button {
+    color: white;
+  }
+
+  .fileUpload {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+
+
+    input {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      margin: 0;
+      padding: 0;
+      font-size: 20px;
+      cursor: pointer;
+      opacity: 0;
+      filter: alpha(opacity=0);
+    }
+
+  }
+
+
+
 }

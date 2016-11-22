@@ -50,7 +50,7 @@ app.get('/api/pictures', function (req, res) {
 })
 
 app.listen(3000, function (err) {
-	if (err) return console.log('Hubo un error'), process.exit(1);
+  if (err) return console.log('Hubo un error'), process.exit(1);
 
 	console.log('La aplicación está escuchando en el puert0 3000');
 })
